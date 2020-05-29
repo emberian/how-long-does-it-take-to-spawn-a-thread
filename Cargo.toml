@@ -1,0 +1,15 @@
+[package]
+name = "how-long-does-it-take-to-spawn-a-thread"
+version = "0.1.0"
+authors = ["Ember Arlynx <ember@lunar.town>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+criterion = "*"
+
+[[bench]]
+name = "main"
+path = "src/main.rs"
+harness = false
